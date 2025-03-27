@@ -1,4 +1,4 @@
-const analyzeArray = require("./analyzeArray");
+const analyzeArray = require("../src/analyzeArray");
 
 test("Calcula el promedio, máximo y mínimo de un array", () => {
   const numbers = [10, 20, 30, 40, 50];

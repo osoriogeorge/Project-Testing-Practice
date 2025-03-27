@@ -1,4 +1,4 @@
-const caesarCipher = require("./caesarCipher");
+const caesarCipher = require("../src/caesarCipher");
 
 test.skip("Encrypts a string with a shift of 1", () => {
   expect(caesarCipher("abc", 1)).toBe("bcd");

@@ -1,4 +1,4 @@
-const calculator = require("./calculator");
+const calculator = require("../src/calculator");
 const calc = calculator();
 
 test.skip("adds 1 + 2 to equal 3", () => {
